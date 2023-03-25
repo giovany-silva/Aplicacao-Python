@@ -38,7 +38,7 @@ def valida_ticker(dado):
 
     
 def main():
-app.run()
+    app.run()
 #abertura do arquivo com nome gotham_op.txt     
     arquivo = open("gotham_op.txt","r")
 
