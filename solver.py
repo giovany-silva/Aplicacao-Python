@@ -1,3 +1,8 @@
+from flask import Flask
+
+app = Flask(__name__)
+
+    
 ##########################Giovany da Silva Santos######################################
 #Testing
 #Função util para ordenar a lista de acordo com o 3º elemento dos blocos analisados
@@ -33,6 +38,7 @@ def valida_ticker(dado):
 
     
 def main():
+app.run()
 #abertura do arquivo com nome gotham_op.txt     
     arquivo = open("gotham_op.txt","r")
 
