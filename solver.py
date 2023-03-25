@@ -1,5 +1,5 @@
 ##########################Giovany da Silva Santos######################################
-
+#Testing
 #Função util para ordenar a lista de acordo com o 3º elemento dos blocos analisados
 def takeThird(elem):
     return elem[2]
